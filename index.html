@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>To-Do List</title>
+</head>
+<body style="background-color: rgba(180, 230, 150, 0.5)">
+  <div class="box" id="main_box">
+      <div class="cont">
+          To-Do List
+      </div>
+      <div class="to_do_box" id="to_do_box1">
+          Studying
+          <div class="button_container">
+            <button class="tick_button">&#10004;</button>
+            <button class="cross_button">&#10006;</button>
+          </div>
+      </div>
+      <div class="to_do_box" id="to_do_box2">
+          Shopping
+          <div class="button_container">
+            <button class="tick_button">&#10004;</button>
+            <button class="cross_button">&#10006;</button>
+          </div>
+      </div>
+      <div class="to_do_box" id="to_do_box3">
+          Gym
+          <div class="button_container">
+              <button class="tick_button">&#10004;</button>
+              <button class="cross_button">&#10006;</button>
+          </div>
+      </div>
+      <div class="input_container">
+         <input type="text" id="todo_input_main" class="todo_input" placeholder="Add new task...">
+         <button id="confirm_button" class="confirm_button">&#9658;</button>
+      </div>
+      <script src="index.js"></script>
+  </div>
+</body>
+</html>
